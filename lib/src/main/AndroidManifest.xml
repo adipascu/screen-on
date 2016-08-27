@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ro.adipascu.onlib">
+
+    <application>
+        <provider
+            android:name="ro.adipascu.screenon.ScreenOnProvider"
+            android:authorities="${applicationId}.screen-on"
+            android:exported="false" />
+    </application>
+
+</manifest>
