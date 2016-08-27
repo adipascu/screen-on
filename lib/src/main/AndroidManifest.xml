@@ -1,9 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="ro.adipascu.onlib">
+    package="ro.adipascu.screenon">
 
     <application>
         <provider
-            android:name="ro.adipascu.screenon.ScreenOnProvider"
+            android:name=".ScreenOnProvider"
             android:authorities="${applicationId}.screen-on"
             android:exported="false" />
     </application>

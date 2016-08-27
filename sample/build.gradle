@@ -23,7 +23,12 @@ buildscript {
         jcenter()
     }
 }
-dependencies {
-    compile project(":lib")
 
+repositories {
+    maven { url "https://jitpack.io" }
+}
+
+dependencies {
+    //    compile project(":lib")
+    debugCompile 'com.github.adi1133:screen-on:0.1'
 }
