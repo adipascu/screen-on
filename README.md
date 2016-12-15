@@ -1,7 +1,7 @@
 # Android Screen On
 
 Use this library to keep the screen on and prevent the phone from going into sleep while the app is in the foreground.
-This is useful for app development thus bringing a similar experience to iOS to Android. This library is self bootstrapping, it requires no extra code in your app (besides the gradle dependency).
+This is useful for app development. The library is self bootstrapping, it requires no extra code in your app (besides the gradle dependency).
 
 ## Instalation steps (using jitpack)
 - Add the JitPack repository to your build file, using your root build.gradle at the end of repositories:
