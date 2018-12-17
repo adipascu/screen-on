@@ -16,7 +16,7 @@ allprojects {
 - Add the dependency
 ```groovy
 dependencies {
-  debugCompile 'com.github.adi1133:screen-on:1.0'
+  debugImplementation 'com.github.adi1133:screen-on:1.0'
 }
 ```
 
